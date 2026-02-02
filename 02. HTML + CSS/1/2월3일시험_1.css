@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  /* color: #333; */
+}
+
+.red-star {
+  color: red;
+  margin-left: 2px;
+  margin-right: 2px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 회원 가입 섹션 */
+.sign-up {
+  margin-bottom: 30px;
+}
+
+.page-title {
+  padding-left: 10px;
+  border-left: 4px solid #333;
+  margin-bottom: 20px;
+}
+
+/* 섹션 타이틀 */
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px 0 15px 0;
+}
+
+.main-title .right {
+  font-size: 0.8rem;
+}
+
+.additional-info h2 {
+  margin: 40px 0 15px 0;
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dfdfdf;
+  margin: 10px 0;
+}
+
+table td {
+  border: 1px solid #dfdfdf;
+  padding: 9px 11px;
+  /* vertical-align: middle; */
+}
+
+table td:first-child {
+  width: 180px;
+  background-color: #fbfafa;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: left;
+  padding-left: 20px;
+}
+
+table td .label {
+  width: 180px;
+  background-color: #f9f9f9;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: left;
+  padding-left: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+  height: 32px;
+  padding: 0px 10px;
+  border: 1px solid #dfdfdf;
+  background-color: white;
+  font-size: 0.9rem;
+  font-family: inherit;
+  vertical-align: middle;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  outline: none;
+  border-color: #999;
+}
+
+/* 입력 필드 크기 */
+.input-small {
+  width: 100px;
+}
+
+.input-medium {
+  width: 230px;
+}
+
+.input-full {
+  width: 400px;
+}
+
+.input-phone {
+  width: 80px;
+}
+
+.select-phone {
+  width: 80px;
+}
+
+/* 생년월일 입력 */
+.input-year {
+  width: 80px;
+}
+
+.input-month,
+.input-day {
+  width: 60px;
+}
+
+.birth input {
+  margin: 0 3px;
+}
+
+.birth span {
+  margin: 0 5px 0 2px;
+}
+
+.birth .radio-calendar {
+  margin: 0 8px 0 15px;
+}
+
+.birth .hint {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+/* 버튼 */
+button[type="button"],
+.btn-search {
+  height: 32px;
+  padding: 0 15px;
+  background-color: white;
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+  font-family: inherit;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* 주소 입력 */
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address-row {
+  display: flex;
+  align-items: center;
+}
+
+/* 힌트 텍스트 */
+.hint {
+  font-size: 0.8rem;
+  margin-left: 8px;
+}
+
+/* 라디오 버튼 & 체크박스 */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+label {
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+/* 동의 섹션 */
+.agreement label {
+  display: inline-block;
+}
+
+.agreement .description {
+  font-size: 0.8rem;
+}
+
+/* 평생회원 섹션 */
+.lifetime .description {
+  font-size: 0.8rem;
+}
+
+
+/* 반응형 
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  table td.label {
+    width: 180px;
+    padding-left: 20px;
+  }
+
+  .input-medium {
+    width: 230px;
+  }
+
+  .input-full {
+    max-width: 100%;
+  }
+}
+*/
